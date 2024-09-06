@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname,"public")))
 app.get("/",(req,res)=>{
     console.log("working")
 })
-
+dscdcsdcds
 app.post("/login",(req,responce)=>{
     let {email,password} = req.body;
     const isavailable =Userdatabase.findOne({"email":email})
